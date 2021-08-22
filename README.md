@@ -17,6 +17,11 @@ A template for building OpenWrt with GitHub Actions
 - Click the `Run workflow` button.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
+-ssh说明：复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可）
+cd openwrt && make menuconfig
+完成后按Ctrl+D组合键或执行exit命令退出，后续编译工作将自动进行。
+大佬中文博客教程：https://p3terx.com/archives/build-openwrt-with-github-actions.html
+
 ## Tips
 
 - It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
