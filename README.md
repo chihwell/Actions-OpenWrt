@@ -18,9 +18,9 @@ A template for building OpenWrt with GitHub Actions
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
 ## SSH说明
-复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可） \n
-cd openwrt && make menuconfig \n
-完成后按Ctrl+D组合键或执行exit命令退出，后续编译工作将自动进行。 \n
+复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可）
+cd openwrt && make menuconfig
+完成后按Ctrl+D组合键或执行exit命令退出，后续编译工作将自动进行。
 大佬中文博客教程：https://p3terx.com/archives/build-openwrt-with-github-actions.html
 
 ## Tips
